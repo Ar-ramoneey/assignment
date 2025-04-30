@@ -1,0 +1,95 @@
+section{
+    display: flex;
+}
+.result {
+    height: 320px;
+    width: 220px;
+    background:linear-gradient(#7857ff,#2e2be9);
+    border-radius: 10%;
+    text-align: center;
+    color: white;
+    position: static;
+    top: 150px;
+    left: 200px;
+    padding: 20px;
+}
+.circle {
+      width: 100px;
+      height: 100px;
+      background:linear-gradient(#4e21ca,#2421ca00);
+      border-radius: 50%;
+      position:relative;
+      top: 0%;
+      left: 60px;  
+      
+}
+.content {
+    text-align: center;
+    line-height: 0.1;
+    position: relative;
+    top: 50px;
+}
+.summary {
+    height: 320px;
+    width: 220px;
+    background-color: whitesmoke;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 0px;
+    padding: 20px;
+}
+.student {
+    font-size: 40px;
+    font-weight: bold;
+}
+input[type="memory"] {
+    background-color: lavenderblush;
+    background-image: url(./assets/images/icon-memory.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+    border: lavenderblush;;
+}
+input[type="reaction"] {
+    background-color: rgb(238, 225, 229);
+    background-image: url(./assets/images/icon-reaction.svg) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+    border: rgb(238, 225, 229);;
+}
+input[type="verbal"] {
+    background-color: #c8e9e1;
+    border: #c8e9e1;
+    background-image: url(./assets/images/icon-verbal.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+input[type="visual"] {
+    background-color: #c5c6d4;
+    border: #c5c6d4;
+    background-image: url(./assets/images/icon-visual.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+}
+input {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius:4px;
+}
+.continue {
+    height: 30px;
+    width: 180px;
+    background-color: rgba(8, 4, 4, 0.925);
+    border-radius: 20px;
+}
+.cont {
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+}
+
